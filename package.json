@@ -1,0 +1,32 @@
+{
+  "author": "TyreseWalker",
+  "name": "pariaturrepellendus",
+  "description": "native js function for hashing messages with SHA-1",
+  "tags": [
+    "sha1",
+    "hash",
+    "encryption",
+    "native",
+    "secure hashing algorithm"
+  ],
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RoseLeannon/pariaturrepellendus.git"
+  },
+  "main": "sha1.js",
+  "script": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "charenc": ">= 0.0.0",
+    "crypt": ">= 0.0.0"
+  },
+  "devDependencies": {
+    "mocha": "~ 1.4.2"
+  },
+  "optionalDependencies": {}
+}
